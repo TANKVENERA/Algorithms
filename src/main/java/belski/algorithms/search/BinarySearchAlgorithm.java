@@ -1,4 +1,4 @@
-package searching;
+package belski.algorithms.search;
 
 public class BinarySearchAlgorithm {
 
