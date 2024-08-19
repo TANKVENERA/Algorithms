@@ -2,7 +2,7 @@ package belski.algorithms.sort;
 
 public class SelectionSortAlgorithm {
 
-    public int[] sortInDecreaseOrder(int[] arrayToBeSorted) {
+    public int[] sortInDescendingOrder(final int[] arrayToBeSorted) {
         for (int i = 0; i < arrayToBeSorted.length; i++) {
 
             int biggestItemIndex = i;

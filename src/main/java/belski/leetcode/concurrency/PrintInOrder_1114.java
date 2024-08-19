@@ -36,7 +36,7 @@ public class PrintInOrder_1114 {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        PrintInOrder_1114 printInOrder = new PrintInOrder_1114();
+        final PrintInOrder_1114 printInOrder = new PrintInOrder_1114();
 
         Thread firstThread = new Thread(() -> {
             try {

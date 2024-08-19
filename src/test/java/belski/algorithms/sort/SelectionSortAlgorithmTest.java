@@ -12,7 +12,7 @@ public class SelectionSortAlgorithmTest {
 
     @Test
     public void shouldSort() {
-        final int[] actual = selectionSortAlgorithm.sortInDecreaseOrder(ARRAY_TO_BE_SORTED);
+        final int[] actual = selectionSortAlgorithm.sortInDescendingOrder(ARRAY_TO_BE_SORTED);
         Assertions.assertArrayEquals(EXPECTED, actual);
     }
 }
