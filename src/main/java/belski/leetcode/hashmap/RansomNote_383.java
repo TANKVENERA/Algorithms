@@ -17,7 +17,7 @@ public class RansomNote_383 {
             }
         }
 
-        return ransomNote.length() == 0;
+        return false;
     }
 
     public boolean canConstructV2(String ransomNote, String magazine) {
